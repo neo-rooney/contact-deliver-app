@@ -7,10 +7,10 @@ function App() {
       <QRCode
         size={256}
         style={{ height: "300px", maxWidth: "100%", width: "100%" }}
-        value={"contact-deliver-fmxkdbbfh-rooney-dev.vercel.app"}
+        value={"contact-deliver-2g9kdga8o-rooney-dev.vercel.app"}
         viewBox={`0 0 256 256`}
       />
-      <a href="tel:">연락처 앱 열기</a>
+      <a href="tel:010-1234-5678?name=홍길동">전화하기</a>
     </div>
   );
 }
