@@ -7,10 +7,14 @@ function App() {
       <QRCode
         size={256}
         style={{ height: "300px", maxWidth: "100%", width: "100%" }}
-        value={"https://contact-deliver-n1g6ka4ry-rooney-dev.vercel.app/"}
+        value={
+          "intent://contacts/#Intent;scheme=content;package=com.android.contacts;end"
+        }
         viewBox={`0 0 256 256`}
       />
-      <a href="content://com.android.contacts/contacts">연락처 앱 열기</a>
+      <a href="intent://contacts/#Intent;scheme=content;package=com.android.contacts;end">
+        연락처 앱 열기
+      </a>
     </div>
   );
 }
